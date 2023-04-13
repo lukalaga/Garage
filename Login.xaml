@@ -1,0 +1,23 @@
+﻿<Window x:Class="GarageManagementSystem.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GarageManagementSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="259" Width="340" Background="#FFBB9797">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="125*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="29" Margin="71,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="29" Margin="71,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Grid.ColumnSpan="2"/>
+        <Label Content="Garage Management" HorizontalAlignment="Left" Height="43" Margin="52,15,0,0" VerticalAlignment="Top" Width="254" FontWeight="Bold" FontSize="24" Grid.ColumnSpan="2"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="27" Margin="65,121,0,0" VerticalAlignment="Top" Width="64" Grid.ColumnSpan="2"/>
+        <Label Content="Username" HorizontalAlignment="Left" Height="24" Margin="65,63,0,0" VerticalAlignment="Top" Width="64" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Left" Height="31" Margin="71,189,0,0" VerticalAlignment="Top" Width="99" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnRegister" Content="Register" HorizontalAlignment="Left" Height="31" Margin="71,189,0,0" VerticalAlignment="Top" Width="99" Grid.Column="1" Background="White"/>
+
+    </Grid>
+</Window>

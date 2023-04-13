@@ -1,0 +1,21 @@
+﻿<Window x:Class="GarageManagementSystem.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GarageManagementSystem"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="453" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/logan-meis-7qLT-Msda1k-unsplash.jpg"/>
+        </Grid.Background>
+        <Button x:Name="BtnVehicle" Content="Add Vehicle" HorizontalAlignment="Left" Height="31" Margin="25,102,0,0" VerticalAlignment="Top" Width="169" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnMechanic" Content="Add Mechanic Details" HorizontalAlignment="Left" Height="31" Margin="25,163,0,0" VerticalAlignment="Top" Width="169" Grid.ColumnSpan="2" Click="BtnMechanic_Click"/>
+        <Button x:Name="BtnLogIssue" Content="Log Repair Issue" HorizontalAlignment="Left" Height="31" Margin="25,217,0,0" VerticalAlignment="Top" Width="169" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnExit" Content="Exit" HorizontalAlignment="Left" Height="35" Margin="604,379,0,0" VerticalAlignment="Top" Width="150" Background="red" Foreground="White" FontWeight="Bold" FontSize="15"/>
+        <Label Content="Garage Management System" HorizontalAlignment="Left" Height="37" Margin="56,26,0,0" VerticalAlignment="Top" Width="280" FontFamily="Arial Black" FontSize="16" Foreground="White" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnRegisterUser" Content="Register User" HorizontalAlignment="Left" Height="31" Margin="25,273,0,0" VerticalAlignment="Top" Width="169"/>
+
+    </Grid>
+</Window>
